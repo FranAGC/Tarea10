@@ -1,0 +1,265 @@
+Hacer los siguientes ejercicios:
+los iguientes ejercicios: 11,13,14 y 15, si no puede hacerlos, no se preocupe, lo harémos en clase, sin embargo, haga el mejor esfuerzo por investigarlos y resolverlos
+los ejercicios importantes  para la clase del sábado son: 3,10,12 y 14
+
+ 
+
+Ejercicio 1
+Crear una carpeta con el nombre ej1
+Inicializar un proyecto de Node.js utilizando NPM dentro de la carpeta ej1
+El nombre del proyecto tiene que ser Ejercicio 1.
+Crear un archivo index.js
+Configurar el proyecto para que al correr npm start corra el código del archivo
+index.js (investigar cómo hacer esto)
+https://www.youtube.com/watch?v=Wx6d8s24Kck
+Como resultado de correr el script tiene que mostrar en consola el
+siguiente mensaje:
+Corriendo código desde mi primer script!!!
+
+ 
+
+* Ejercicio 2
+Crear una carpeta con el nombre ej2
+Inicializar un proyecto de Node.js utilizando NPM dentro de la carpeta ej2
+El nombre del proyecto tiene que ser Ejercicio 2
+Crear un archivo index.js
+Instalar el módulo Express como dependencia de nuestro proyecto
+Configurar el proyecto para que al correr npm start
+corra el código del archivo index.js.
+Mostrar en consola el objeto express
+
+ 
+
+
+* Ejercicio 3
+Crear una carpeta con el nombre ej3
+Inicializar un proyecto de Node.js utilizando NPM dentro de la carpeta ej3
+El nombre del proyecto tiene que ser Ejercicio 3
+Crear un archivo index.js
+Leer la documentación del módulo para aprender a usarlo
+Instalar el módulo logplease como solo dependencia de desarrollo de nuestro proyecto
+Configurar el proyecto para que al correr npm start corra el código del archivo
+index.js. Mostrar en consola:
+Hola Mundo de Node (usando el método debug)
+¡Información de último momento, Node.js es lo más!! (usando el método info)
+Tirando warnings como campeones (usando el método warn)
+¡Algo no está bien!!! (usando el método error)
+
+ 
+
+ 
+
+* Ejercicio 4
+Crear una carpeta con el nombre ej4
+Inicializar un proyecto de Node.js utilizando NPM dentro de la carpeta ej4
+El nombre del proyecto tiene que ser Ejercicio 4
+Crear un archivo index.js
+Leer la documentación del módulo para aprender a usarlo
+Instalar el módulo one-liner-joke
+Configurar el proyecto para que al correr npm start corra el código del archivo
+index.js. Mostrar en consola un chiste random. Mostrar en consola las categoría
+a las que pertenece.
+Nota de color:
+el método getRandomJoke retorna un objeto que tiene una propiedad body con el chiste
+y la propiedad tags con las categorías
+ 
+
+ 
+
+ * Ejercicio 5
+Crear una carpeta con el nombre ej5
+Inicializar un proyecto de Node.js utilizando NPM dentro de la carpeta ej5
+El nombre del proyecto tiene que ser Ejercicio 5
+Crear un archivo index.js
+Crear un archivo numeros.js
+Declarar una función con el nombre esPar, esta función acepta un número como
+parámetro.
+ 
+Retorna un valor boolean true en caso de que el valor sea par y false
+en caso de que no lo sea. Exportar la función index.js.
+Instalar el módulo logplease como solo dependencia de desarrollo de nuestro proyecto.
+Importar el módulo logplease.
+Importar el módulo numeros Llamar a la función
+es par con los siguientes valores:
+2, 3, 101, 201, 202, 100
+Si el número es par mostrar en consola el siguiente mensaje utilizando los
+métodos indicados del módulo logplease:
+El número es par (utilizar el método info)
+Sino
+El número no es par (utilizar el método error)
+
+ 
+
+ * Ejercicio 6
+Crear un archivo con el nombre ej6.js
+Crear una arrow function con el nombre saludar
+Esta función acepta 3 parámetros.
+ 
+El primer parámetro es el nombre de la persona que queremos saludar.
+
+El segundo parámetro es el apellido de la persona que queremos saludar.
+Esta función muestra en pantalla el siguiente mensaje:
+`Hola ${nombre}` ${apellido}`
+El tercer parámetro es un callback que se va a ejecutar luego de saludar al usuario
+Esta función tiene que mostrar en pantalla el siguiente texto:
+'Luego de saludar se ejecuta el callback'
+Al correr el script deberíamos ver en pantalla el saludo
+
+ 
+
+
+* Ejercicio 7
+Crear una carpeta con el nombre ej7
+Crear un archivo con el nombre index.js
+Crear un archivo con el nombre saludador.js
+Requerir el módulo saludador
+Utilizar la función saludar exportada
+Pasarle los 3 parámetros desde este archivo (nombre, apellido y callback)
+saludador.js
+Copiar y pegar la función saludar del ejercicio anterior (ej6) en el archivo
+saludador.js
+Exportar la función saludar
+Correr el proyecto con npm start (index.js)
+
+
+ 
+
+ 
+
+ * Ejercicio 8
+Crear un archivo con el nombre ej8.js
+Levantar un servidor HTTP en el puero 3001, ejecutar un request a localhost:3001.
+El servidor tiene que responder con el siguiente texto:
+
+'Bienvenidos a Node.js Server Side'. Al levantar el servidor tiene que mostrar
+un mensaje que diga: `Servidor corriendo en el puerto ${puerto}`. En caso de haber un
+error al levantar el servidor tiene que mostrar el siguiente mensaje:
+
+`No se pudo levantar el servidor en el puerto ${puerto}`
+(AYUDIN) podes copiar el código de la guía y modificarlo
+ https://www.w3schools.com/nodejs/nodejs_http.asp
+
+ 
+
+ 
+
+Ejercicio 9
+Crear un archivo con el nombre ej9.js
+Levantar un servidor utilizando Express, el servidor tiene que responder con
+el siguiente texto: 'Bienvenidos a Node.js Server Side'
+Al levantar el servidor tiene que mostrar un mensaje que diga:
+`Servidor corriendo en el puerto ${puerto}`. En caso de haber un error al levantar
+el servidor tiene que mostrar el siguiente mensaje:
+`No se pudo levantar el servidor en el puerto ${puerto}`
+
+ 
+
+* Ejercicio 10
+Crear un archivo con el nombre ej10.js
+Levantar un servidor de Express
+Manejar las siguientes rutas:
+Ruta: Raiz del sitio ,Metodo: get, Acción: Mostrar un mensaje de bienvenida
+Ruta: Productos, Metodo: get, Acción: Mostrar un mensaje que diga: listado de
+productos
+Ruta: Productos, Metodo: post, Acción: Mostrar un mensaje que diga: crear
+un producto
+Ruta: Productos, Metodo: put, Acción: Mostrar un mensaje que diga: actualizar
+un producto
+Ruta: Productos, Metodo: delete, Acción: Mostrar un mensaje que diga: borrar
+un producto
+Ruta: Usuarios, Metodo: get, Acción: Mostrar un mensaje que diga: listado de
+usuarios
+Ruta: Usuarios, Metodo: post, Acción: Mostrar un mensaje que diga: crear un usuario
+Ruta: Usuarios, Metodo: put, Acción: Mostrar un mensaje que diga: actualizar
+un usuario
+Ruta: Usuarios, Metodo: delete, Acción: Mostrar un mensaje que diga: borrar
+un usuario
+Crear un método que maneje todos los verbos de HTTP para la pagina
+Utilizar Postman para probar todos los llamados
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ejercicio 11
+Crear un archivo con el nombre ej11.js
+Levantar un servidor de Express
+Crear un archivo html con el nombre index.html
+Crear un archivo html con el nombre productos.html
+Al llamar a localhost:3000 se debe mostrar el archivo index.html
+Al llamar a localhost:3000/products se debe mostrar el archivo productos.html
+index.html
+Crear un archivo HTML bien formado
+Agregar un título h1 con el texto 'Home'
+Agregar un título h2 autogenerado
+Agregar 3 párrafos autogenerados
+Agregar un link para ir a la sección de productos
+productos.html
+Crear un archivo HTML bien formado
+Agregar un título h1 con el texto 'Productos'
+Crear una tabla con 10 productos que te gustaría comprarte
+Mostrar en la tabla los siguientes datos:
+Descripción del producto o nombre
+Precio
+Lugar donde lo venden
+
+ 
+
+ 
+
+ 
+
+* Ejercicio 12
+Crear un archivo con el nombre ej12.js
+Levantar un servidor de Express
+Al llamar a localhost:3000/api/products se debe mostrar el siguiente JSON:
+{
+  descripcion: 'Productos',
+  items: [
+    { nombre: 'taza de Star Wars' , precio: 300},
+    { nombre: 'FIFA 22 PS4' , precio: 1000},
+    { nombre: 'Playera IronMan' , precio: 100},
+    { nombre: 'Zacapa Centenario' , precio: 200},
+    { nombre: 'Caja de estampas del mundual' , precio: 120},
+    { nombre: 'Kit Gamer+' , precio: 220}
+  ]
+}
+
+ 
+
+ * Ejercicio 13
+Crear un archivo con el nombre ej13.js
+Levantar un servidor de Express
+Crear un módulo para manejar las rutas de nuestra home (get y post)
+Crear un módulo para manejar las rutas de nuestros productos (get, post, delete, put)
+Cada ruta sólo tiene que enviar un mensaje diciendo que página es y
+que método utiliza
+res.send('Pagina: home, método: post')
+Montar las rutas de home en '/'
+Montar las rutas de prodcutos en '/productos'
+
+ 
+
+ 
+
+ 
+
+ * Ejercicio 14
+Crear un archivo con el nombre ej14.js
+Levantar un servidor de Express
+Crear la siguiente ruta, url: '/', metodo: get
+Esta ruta tiene que retornar un mensaje que dice: 'Este request/response está OK',
+usar el método send para la respuesta
+Establecer el status en 200
+Crear la siguiente ruta, url: '/productos', metodo: get
+Esta ruta tiene que retornar un mensaje que dice: 'Ha ocurrido un error de servidor',
+usar el método send para la respuesta
+Establecer el status en 500
+Crear la siguiente ruta, url: '/contacto', metodo: get
+Esta ruta tiene que retornar un mensaje que dice: '404 No encontrado', usar el método
+send para la respuesta
+Establecer el status en 404

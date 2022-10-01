@@ -11,8 +11,30 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
     const body = req.body;
     res.json({
-        message: 'Crear un usuario',
+        message: 'Crear un producto',
         data: body
+    })
+});
+
+router.put('/:id', (req, res) => {
+    const {id} = req.params;
+    const body = req.body;
+
+    res.json({
+        message: "Actualizar un producto",
+        data: body,
+        id,
+    })
+})
+
+
+router.delete('/:id', (req, res) => {
+    const {id} = req.params;
+    const body = req.body;
+
+    res.json({
+        message: "Borrar un producto",
+        id,
     })
 })
 

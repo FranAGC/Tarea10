@@ -3,6 +3,7 @@ const routerAPI = require('./rutas');
 const app = express();
 const puerto = 3000;
 
+app.use(express.json());
 
 app.get('/', (req, res) => {
     res.send("Bienvenidos!");
@@ -13,3 +14,6 @@ app.listen(puerto, () => {
 })
 
 routerAPI(app);
+
+
+

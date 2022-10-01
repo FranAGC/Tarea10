@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
     const body = req.body;
     res.json({
-        message: 'Crear producto',
+        message: 'Crear un usuario',
         data: body
     })
 })
